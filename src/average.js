@@ -12,33 +12,23 @@
     - average([1, '2']) // Retorno: undefined;
 */
 
-// const checkTypeArray = (array) => {
-//   if (typeof array !== 'object' || array.length === 0) {
-//     console.log(undefined);
-//     return undefined;
-//   }
-// };
-
 const average = (array) => {
   if (typeof array !== 'object' || array.length === 0) {
     console.log(undefined);
     return undefined;
   }
+
   let aggregator = 0;
   const checkTypeElement = array.find((element) => typeof element !== 'number');
-  // console.log('checkTypeElement', typeof checkTypeElement);
+
   if (checkTypeElement === undefined) {
     array.forEach((element) => {
       aggregator += element;
     });
     const response = Math.round(aggregator / array.length);
-    // console.log('response ->', response);
     return response;
   }
-  // console.log(undefined);
   return undefined;
 };
-
-average([]);
 
 module.exports = average;
