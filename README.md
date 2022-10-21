@@ -1,20 +1,6 @@
-## Termos de acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
-
 ## Boas vindas ao repositório do projeto de ES6 e Testes Unitários!
 
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Atenção a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
----
-
 ## Sumário
-
-- [Termos de acordos](#termos-de-acordos)
-- [Boas vindas ao repositório do projeto de ES6 e Testes Unitários!](#boas-vindas-ao-repositório-do-projeto-de-es6-e-testes-unitários)
-- [Sumário](#sumário)
 - [Habilidades](#habilidades)
 - [Entregáveis](#entregáveis)
   - [O que será desenvolvido](#o-que-será-desenvolvido)
@@ -36,10 +22,6 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   - [8. Implemente a função `myCounter`](#8-implemente-a-função-mycounter)
   - [9. Implemente os casos de teste para a função `getCharacter`](#9-implemente-os-casos-de-teste-para-a-função-getcharacter)
   - [10. Implemente a função `createMenu`, bem como seus casos de teste](#10-implemente-a-função-createmenu-bem-como-seus-casos-de-teste)
-- [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
-- [Revisando um pull request](#revisando-um-pull-request)
-- [Avisos finais](#avisos-finais)
-
 ---
 
 ## Habilidades
@@ -431,31 +413,6 @@ A estrutura deste código e deste objeto já foi definida e você irá implement
 * Será validado se a função `createMenu` retorna os dados esperados.
 * Será validado se o teste da função `createMenu` verifica cada um dos retornos da função e se estes retornos têm o comportamento esperado.
 
----
-
-## Depois de terminar o desenvolvimento (opcional)
-
-Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus colegas, faça o seguinte:
-
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
-  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-016-a`.
-
-Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
-## Revisando um pull request
-
-Use o conteúdo sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os _Pull Requests_.
-
 #VQV
 
 ---
-
-## Avisos finais
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
-
-Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH)
-
-O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?
