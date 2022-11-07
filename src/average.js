@@ -14,7 +14,6 @@
 
 const average = (array) => {
   if (typeof array !== 'object' || array.length === 0) {
-    console.log(undefined);
     return undefined;
   }
 
