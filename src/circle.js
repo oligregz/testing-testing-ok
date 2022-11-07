@@ -5,7 +5,7 @@
   retornando um objeto contendo suas informações (Raio, Área e Circunferência).
   Se não for especificado um raio, a função retorna undefined.
   Elabore testes para verificar se a função está correta.
-
+  Ex:
   Parâmetros:
     - Um número inteiro. Exemplos: 1; 3;
   Comportamento:
