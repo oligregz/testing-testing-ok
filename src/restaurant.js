@@ -86,4 +86,6 @@ const createMenu = (obj) => {
   return menu;
 };
 
+console.log(typeof createMenu().fetchMenu);
+
 module.exports = createMenu;
