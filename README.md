@@ -364,8 +364,6 @@ Essa função já está implementada no arquivo `src/getCharacter.js`. Escreva p
 
 ### 10. Implemente a função `createMenu`, bem como seus casos de teste
 
-**Agora prepare-se! Esse último requisito vai te guiar através de um longo e rico processo de desenvolvimento orientado a testes (Test Driven Development, ou TDD). Dará trabalho, mas vale a pena!**
-
 Você é responsável por elaborar o sistema de pedidos de um restaurante. Deve ser possível, através desse sistema, cadastrar um menu. Dado que um menu foi cadastrado, o sistema deve disponibilizar um objeto através do qual se consegue:
 
 * Ler o menu cadastrado;
