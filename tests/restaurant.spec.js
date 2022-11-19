@@ -70,6 +70,11 @@ describe('10 - Implemente os casos de teste e a função `createMenu`', () => {
   });
 
   // --------------------------------------------------------------------------------------
+  it(`Verifique se 'objetoRetornado.consumption', após a criação do menu, retorna um array vazio`, () => {
+    const menu = { food: { bird: 'chiken'}, drink: { alcoholic: 'beer'}};
+    const objetoRetornado = createMenu(menu) 
+    expect(objetoRetornado.consumption).toEqual([]);
+  });
   // TESTE 4: Verifique se 'objetoRetornado.consumption', após a criação do menu, retorna um array vazio.
   // ```
   // const objetoRetornado = createMenu(objetoQualquer);
