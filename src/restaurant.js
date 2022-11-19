@@ -80,12 +80,14 @@
 // DICA: para isso, você precisará percorrer tanto o objeto da chave `food` quanto o objeto da chave `drink`.
 
 const createMenu = (obj) => {
+  const getMenu = () => obj;
   let menu = {
-    fetchMenu: () => obj,
+    fetchMenu: getMenu(),
   };
+  if (typeof obj !== 'object') {
+    return undefined;
+  }
   return menu;
 };
-
-console.log(typeof createMenu().fetchMenu);
 
 module.exports = createMenu;
