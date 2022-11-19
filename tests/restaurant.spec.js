@@ -55,20 +55,22 @@ describe('10 - Implemente os casos de teste e a função `createMenu`', () => {
     expect(Array.isArray(createMenu({}))).toBe(false);
   });
   
-  // it(`'objetoRetornado.fetchMenu()' retorna um objeto cujas chaves são somente 'food' e 'drink', 
-  // considerando que a função createMenu() foi chamada com o objeto: '{ food: {}, drink: {} }'`, () => {
-  //   const expectKey = { food: {}, drink: {} };
-  //   const keyValue = objetoRetornado.fetchMenu;
-  //   expect(createMenu({ food: {}, drink: {} })).toEqual(expectKey);
-  // });
-  // TESTE 2: Verifique se 'objetoRetornado.fetchMenu()' retorna um objeto cujas chaves são somente `food` e `drink`, 
-  // considerando que a função createMenu() foi chamada com o objeto: `{ food: {}, drink: {} }`.
-  // ```
-  // const objetoRetornado = createMenu({ food: {}, drink: {} });
-  // objetoRetornado.fetchMenu() // Retorno: { food: {}, drink: {}}
-  // ```
-  // TESTE 3: Verifique se o menu passado pra função createMenu é identico ao menu recuperado pela função 'objetoRetornado.fetchMenu'
-  // ```
+  it(`'objetoRetornado.fetchMenu()' retorna um objeto cujas chaves são somente 'food' e 'drink', 
+  considerando que a função createMenu() foi chamada com o objeto: '{ food: {}, drink: {} }'`, () => {
+    const calling = createMenu({ food: {}, drink: {} });
+    expect(Object.keys(calling.fetchMenu)[0]).toBe('food');
+    expect(Object.keys(calling.fetchMenu)[1]).toBe('drink');
+    expect(Object.keys(calling.fetchMenu)).toEqual(['food', 'drink']);
+  });
+
+  it(`Verifique se o menu passado pra função createMenu é identico ao menu recuperado pela função 'objetoRetornado.fetchMenu'`, () => {
+    const menu = { food: { bird: 'chiken'}, drink: { alcoholic: 'beer'}};
+    const objetoRetornado = createMenu(menu)
+    expect(objetoRetornado.fetchMenu).toEqual(menu);
+  });
+//  ```
+//   // TESTE 3: Verifique se o menu passado pra função createMenu é identico ao menu recuperado pela função 'objetoRetornado.fetchMenu'
+//   // ```
   // const objetoRetornado = createMenu(objetoQualquer);
   // objetoRetornado.fetchMenu() // Retorno: objetoQualquer
   // ```
